@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>  
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="profile">
+      <img src="673badb2-67b3-43ae-a52e-c58f9df709dc.jpeg" alt="Your Name">
+      <h1>Raghwan Rana</h1>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img src="755e9829-a675-41b0-8081-2054a9e2ea93.jpeg" alt="User Picture">
+        <p>Hi there! I'm Raghwan Rana, a 3rd year  student currently pursuing my B.Tech(CSE) at Maharishi Markandeshwar Deemed To Be University. With a keen interest in web development, I am constantly seeking opportunities to expand my knowledge and develop practical skills..</p>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="th.jpeg" alt="Skill 1">
+        
+        </p>Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is intended to let application developers write once, and run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. .</p>
+        </div>
+        <div class="skill">
+          <img src="th (1).jpeg" alt="Skill 2">
+          
+          <p>C++ is the most used and most popular programming language developed by Bjarne Stroustrup. C++ is a high-level and object-oriented programming language. This language allows developers to write clean and efficient code for large applications and software development, game development, and operating system programming. </p>
+        </div>
+        
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="th (2).jpeg" alt="Project 1">
+        <h3>Library Management System</h3>
+
+        <p>  A Library Management System(LMS)  is a programmed software to organize books in the library in a way it is easy to access by the readers and the library itself.  With the help of LMS, one can track the books available in store,  lost/ out-of-stock, books issued and returned, etc. The LMS streamlines the operational processes of a library .</p>
+      </div>
+      <div class="project">
+        <img src="th (3).jpeg" alt="Project 2">
+        <h3>Code Editor</h3>
+        
+        <p>  Code Editor helps programmers develop codes in a streamlined manner. Creating a code editor requires basic knowledge of web development, i.e., HTML, CSS, and JavaScript.</p>
+      </div>
+     
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;Raghwan Rana</p>
+  </footer>
+</body>
+</html>
